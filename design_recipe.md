@@ -55,9 +55,9 @@ grammar_checker("Hello."): => "This looks like it's grammatically correct!"
 
 grammar_checker("fakdjfhak"): => "This doesn't look like it's grammatically correct!"
 
-grammar_checker("Hello"): => "Close, but not quite right!"
+grammar_checker("Hello"): => "This doesn't look like it's grammatically correct!"
 
-grammar_checker("hello!"): => "Close, but not quite right!"
+grammar_checker("hello!"): => "This doesn't look like it's grammatically correct!"
 
 grammar_checker(5): => "This is not a string!"
 
